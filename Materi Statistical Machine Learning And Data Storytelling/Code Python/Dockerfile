@@ -4,7 +4,8 @@
 
 # LANGKAH KE-2
 # Running Container. pastikan nama buildnya sesuai. ini akan menghapus container setelah keluar
-# docker run --rm -it -p 8888:8888 -v "$(pwd)":/app python-machine-learning bash
+# m docker run --rm -it -p 8888:8888 -v "$(pwd)":/app python-machine-learning bash
+# w docker run --rm -it -p 8888:8888 -v "${PWD}:/app" python-machine-learning bash
 
 # LANGKAH KE-3
 # Menjalankan Jupyter Notebook Di Browser, nanti buka link http://127.0.0.1:8888
