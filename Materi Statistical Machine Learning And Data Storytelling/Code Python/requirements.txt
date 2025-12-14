@@ -4,3 +4,4 @@ python-lsp-server[all]
 matplotlib
 seaborn
 pandas
+scikit-learn
