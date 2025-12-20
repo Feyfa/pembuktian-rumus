@@ -1,4 +1,4 @@
-jupyterlab
+jupyterlab==4.5.1
 jupyterlab-lsp
 python-lsp-server[all]
 matplotlib
