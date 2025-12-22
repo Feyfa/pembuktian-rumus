@@ -1,5 +1,5 @@
 # STEP 1 BUILD IMAGE -> docker build -t python-machine-learning .
-# STEP 2 RUNNING CONTAINER -> docker run --rm -it -p 8888:8888 -v "$(pwd)":/app python-machine-learning
+# STEP 2 RUNNING CONTAINER -> m = docker run --rm -it -p 8888:8888 -v "$(pwd)":/app python-machine-learning | w = docker run --rm -it -p 8888:8888 -v ${PWD}:/app python-machine-learning
 
 # Base image
 FROM python:3.11-slim
